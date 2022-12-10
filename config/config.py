@@ -28,13 +28,11 @@ MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://thechatting14:2004@cluster0
 
 # Custom max audio(music) duration for voice chat. set DURATION_LIMIT in variables with your own time(mins), Default to 300 mins.
 DURATION_LIMIT_MIN = int(
-    getenv("DURATION_LIMIT", "300")
-)  # Remember to give value in Minutes
+    getenv("DURATION_LIMIT", "300"))  # Remember to give value in Minutes
 
 # Duration Limit for downloading Songs in MP3 or MP4 format from bot
 SONG_DOWNLOAD_DURATION = int(
-    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180")
-)  # Remember to give value in Minutes
+    getenv("SONG_DOWNLOAD_DURATION_LIMIT", "180"))  # Remember to give value in Minutes
 
 # You'll need a Private Group ID for this.
 LOG_GROUP_ID = int(getenv("LOG_GROUP_ID", "-1001295210753"))
